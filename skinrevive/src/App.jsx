@@ -4,6 +4,7 @@ import Shop from "./Components/Shop";
 import CategoryPage from "./Components/CategoryPage";
 import Navigation from "./Components/Navigation";
 import SignIn from "./Components/SignIn";
+
 const App = () => {
   const location = useLocation();
   const excludePath = ["/signin"];

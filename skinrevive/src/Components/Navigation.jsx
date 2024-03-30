@@ -6,6 +6,7 @@ const Navigation = () => {
   const openSignIn = () => {
     navigate("/signin");
   };
+
   return (
     <div className="flex flex-row px-[32px] py-[8px] items-center justify-between purple-gradient">
       <div className="flex flex-row object-contain items-center w-[100px] h-[100px]">
@@ -21,6 +22,7 @@ const Navigation = () => {
         >
           Sign In
         </button>
+
         <div className="flex justify-center items-center">
           <FaShoppingBag className="w-[40px] h-[40px]" />
         </div>
